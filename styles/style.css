@@ -140,3 +140,39 @@ main{
     border-radius: 15px;
     padding-left: 10px;
 }
+/* -----------------------------
+        Media Query
+-------------------------------- */
+
+/* Mobile Device */
+
+@media only screen and (max-width: 688px) {
+    .container, .course-container, .nav-section{
+        width: 100%;
+    }
+    .nav-section{
+        height: 200px;
+    }
+    .nav-idea, .players-information, .blogs-information, .course-details{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .player, .blog-details{
+        flex-direction: column;
+    }
+    
+} 
+
+/* tablet------ */
+
+@media only screen and (min-width:689px) and (max-width:992px) {
+    .container, .course-container, .nav-section{
+        width: 100%;
+    }
+    .players-information, .blogs-information, .course-details{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .blogs-information{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+}
