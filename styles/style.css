@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@500&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #F3F1FF;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.container, .course-container{
+    background-color: #FFFFFF;
+    width: 820px;
+    border-radius: 5px;
+    padding: 6px 30px 0 30px;
+    
+}
+
+/* --------Navigation section styles------ */
+.nav-section{
+    background-color: #562EFF ;
+    color: #F3F1FF;
+    width: 1440px;
+    height: 94px;
+
+}
+.nav-items img{
+    height: 51px;
+    width: 51px;
+}
+.nav-items{
+    display: flex;
+    width: 850px;
+    justify-content: space-between;
+}
+.nav-idea{
+    display: flex;
+    font-size: 24px;
+    gap: 15px;
+    align-items: center;
+}
+.nav-details{
+    display: flex;
+    gap: 35px;
+    align-items: center;
+}
+
+/* -------Top Players Styles-------- */
+
+.section-title{
+    color: #562EFF;
+    font-size: 24px;
+}
+.players-information{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+}
+.player{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.player img{
+    Width: 56px; 
+    Height: 56px;
+}
+.horizontal-line{
+    border: 1px solid #D1D1D1;
+    margin-top: 29px;
+}
+
+/* ------Top Blog Styles----- */
+.blogs-information{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 26px;
+    margin-bottom: 10px;
+}
+.blog-details{
+    display: flex;
+    gap: 16px;
+}
+.blog-details img{
+    width: 177px;
+    height: 117px;
+}
+.blog-details h3{
+    font-size: 20px;
+    color: #000000;
+}
+
+/* ----Course Styles----- */
+.course-container{
+    margin-top: 30px;  
+}
+.course-container img{
+    width: 224px;
+    height: 104px;
+}
+.course-details{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 23px;
+    padding-bottom: 30px;
+    
+}
+.course-single{
+    filter: drop-shadow(0px 5.34229px 13.3557px rgba(0, 0, 0, 0.05));
+}
+.course-single h3{
+    font-size: 20px;
+    color: #000000;
+}
+.course-style{
+    display: flex;
+    justify-content: space-between;
+}
+.star-color{
+    color: #FFC014;
+}
+.star-gap{
+    color:#D1D1D1;
+}
+.course-duration{
+    background-color: rgb(255, 206, 203);
+    color: #FF4A60;
+    height: 29px;
+    width: 95px;
+    border-radius: 15px;
+    padding-left: 10px;
+}
